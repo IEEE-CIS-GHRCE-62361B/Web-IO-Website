@@ -5139,6 +5139,11 @@ h6 {
   align-items: center;
   flex-wrap: wrap;
   height: 50vh;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .education {
